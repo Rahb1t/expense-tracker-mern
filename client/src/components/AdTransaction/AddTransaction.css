@@ -1,0 +1,11 @@
+.transaction-container {
+    display: flex;
+  }
+  
+  .transaction-form {
+    flex: 1;
+    margin-right: 20px; /* Adjust margin as needed */
+  }
+  
+  /* Add additional CSS styling as needed */
+  

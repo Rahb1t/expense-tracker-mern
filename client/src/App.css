@@ -22,7 +22,7 @@ body {
 
 .container {
   margin: 30px auto;
-  width: 400px;
+  width: calc(100vw - 480px);
 }
 
 h1 {
