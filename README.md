@@ -14,12 +14,15 @@ change config.env file in config folder
  cd ..
 
  # Run front and backend
+ cd server
  npm run dev
 
  # Backend only
+ cd server
  npm run server
 
  # Frontend only
+ cd client
  npm run client
 
  # Build client
