@@ -22,7 +22,7 @@ body {
 
 .container {
   margin: 30px auto;
-  width: calc(100vw - 480px);
+  width: calc(100vw - 700px);
 }
 
 h1 {
@@ -88,6 +88,12 @@ input[type='number'] {
   width: 100%;
 }
 
+@media (min-width: 768px) {
+  .button-36 {
+    padding: 0 2.6rem;
+  }
+}
+
 .btn {
   cursor: pointer;
   background-color: #9c88ff;
@@ -96,7 +102,7 @@ input[type='number'] {
   border: 0;
   display: block;
   font-size: 16px;
-  margin: 10px 0 30px;
+  margin: 10px  30px;
   padding: 10px;
   width: 100%;
 }
